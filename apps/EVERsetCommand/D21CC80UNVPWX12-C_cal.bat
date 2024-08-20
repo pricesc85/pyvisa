@@ -1,0 +1,1 @@
+C:\Users\scopri\Documents\PycharmProjects\pyvisa\apps\EVERsetCommand\EVERsetCommand.exe /ito "-1" /t "FEIG" /scs "DD21CC80UNVPWX12-C" /esn "TRUE" /dc "1" /o "WRITE" /pi "RFID" /pf "C:\Users\scopri\Documents\PycharmProjects\pyvisa\apps\EVERsetCommand\D21CC80UNVPWX12-C_cal.csv"

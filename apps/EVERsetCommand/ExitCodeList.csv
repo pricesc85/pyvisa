@@ -1,0 +1,164 @@
+0,Success
+1,Missing Ini File
+2,Missing Ini Parameter
+3,Improperly Decorated CMD Line Switch
+4,Invalid CMD Line Switch Value
+5,Cannot Connect To LDPC000A
+6,LDPC000A Disconnected
+7,Cannot Find Specified EVERset Profile
+8,Cannot Open Specified EVERset Profile
+9,Cannot Parse Specified EVERset Profile
+10,Invalid Config Tool Specification
+11,Invalid Operational Setting
+12,Invalid Dimming Curve Option
+13,Cannot Find Specified Catalog Number List
+14,Failed to Open Catalog Number List
+15,Cannot Identify Catalog Number of Read Driver
+16,Configuration Inactivity Time Out
+17,Improper Time Out for RFID WRITE
+18,Attempted to Configure Incorrect Driver
+19,Invalid Physical Interface
+20,Missing CMD Line Value
+21,Failed to Receive Successful Config Notification for Any Driver
+22,Failed to Receive Successful Config Notification for All Drivers
+23,Failed to Discover Drivers During MDC
+24,Potential Dead Short Detected on MDC Bus
+25,Cannot Parse Profile Data for Dimming Curve
+26,Cannot Parse Data for Dim to Off Ctrl Voltage
+27,Cannot Parse Data Dim Curve Modifier
+28,Cannot Parse Data for Full Bright Ctrl Voltage
+29,Cannot Parse Data for Initial Output Current
+30,Cannot Parse Data for Lumen Compensation Period
+31,Cannot Parse Data for Lumen Compensation Enabled
+32,Cannot Parse Data for Max Design Current
+33,Cannot Parse Data for Min Dim Ctrl Voltage
+34,Cannot Parse Data for Min Dim Current
+35,Cannot Parse Data for Num Driver Per Catalog Number
+36,Cannot Parse Data for Output Current
+37,Invalid Supplied Serial Number
+38,Failed to Open and Parse INI File
+39,Successfully Serialized MDC Driver
+40,EVERset Profile NOT Specified
+41,Driver Already Serialized
+42,Calling Program Failed to Supply Serial Number
+43,Cannot Connect To CPR30-USB
+44,Attempted to Serialize Incorrect Driver
+45,Unrecognized MDC Version Number
+46,All MDC Command Space Slots Full
+47,Failed to Write Serial Num Command
+48,Calling Program Failed to Specify Catalog Number of Driver to be Serialized
+49,MDC Command Space Completely Erased
+50,Successfully Read Driver Via FEIG Tool
+51,Specified Log File Directory Does Not Exist
+52,Failed to Create Log File
+53,Tag IC Disappeared During Read
+54,Failed to Receive Reply From FEIG Tool
+55,Failed to Place Restore to Factory Default CMD
+56,Failed to Place Lock Tune Table CMD
+57,Failed to Place Fuse Tune Table CMD
+58,Cannot Find Data in Specified Profile
+59,Cannot Parse Data for Programmable Start Temp
+60,Cannot Parse Data for Programmable End Temp
+61,Cannot Parse Data for Maximum Temperature Foldback
+62,Cannot Identify CatalogID of Driver to be Configured
+63,Insufficient Lumen Maintenance Data from Profile
+64,Insufficient Difference Between I_OutMax and I_MinDim
+65,Insufficient Difference Between I_OutInit and I_MinDim For Lumen Maintenance
+66,Received Invalid FEIG Device Index
+67,Received Invalid FEIG Device Handle
+68,FEIG Reader/Writer Not Found in Scan List
+69,Invalid Internal Status Code From FEIG Device
+70,Invalid Outer Status Value From FEIG API Call
+71,Could Not Rename Config Log File
+72,Configuration Log Filename Supplied But Directory Was Not Supplied
+73,Invalid Specified Exit Code List Filename
+74,Cannot find Config Log Field List
+75,Profile Exists but Cannot Be Opened
+76,I_MaxTempFoldBack Cannot Be Less Than I_MinDim
+77,Programmable Starting Temp is Greater Than Programmable Ending Temp
+78,Programmable Temps Greater Than 90 Celcius
+79,I_OutInit is Less Than 50% of I_OutMax
+80,Cannot Parse Locked Configurable Item Field Adjustability Password
+81,Cannot Parse Restricted Configurable Items List
+82,Cannot Parse Configurable Item Field Adjustability
+83,Cannot Parse New Locked Configurable Item Field Adjustability Password
+84,Invalid Field Adjustability Command
+85,Invalid Configurable Item Abbreviation for Field Adjustability
+86,Invalid Configuration Type Specified in Profile
+87,Lock Key Has Not Been Supplied to Unlock Driver
+88,Fuse Key Has Not Been Supplied to Unfuse Driver
+89,Key Exceeds Max Value for Locking
+90,Key Exceeds Max Value for Fusing
+91,MDC Revision Not Found in Catalog Number List
+92,Cannot Parse Fused Configurable Item Field Adjustability Password
+93,Cannot Parse New Fused Configurable Item Field Adjustability Password
+94,Header Row Count of CSV Profile Does Not Match Configurable Item Count
+95,MDC Revision of Mated Driver Does Not Match MDC Revision of Profile
+96,Cannot Parse MDC Revision From Specified Profile
+97,Unknown CSV Profile Header Item
+98,Programmable Temps Less Than 25 Celcius
+99,RFID Read Process Timed Out
+100,Specified Configuration Tool is Inappropriate for Tasks Specified by CSV Profile
+101,Completed Generic Tag IC Read
+102,Completed Generic Tag IC Write
+103,Failed to open incoming pipe
+104,Failed to open outgoing pipe
+105,Unrecognized Tier 1 Command or Query
+106,Unrecognized Tier 2 Command or Query
+107,Unrecognized Tier 3 Command or Query
+108,Missing Tier 3 Query
+109,Missing Tier 2 Query
+110,Failed to send data via named pipes
+111,No INI_SET payload was provided via named pipes
+112,No CAT_NUM_LIST payload was provided via named pipes
+113,No EXIT_CODE_LIST payload was provided via named pipes
+114,No CONFIG_PROFILE payload was provided via named pipes
+115,No LOG_FIELD_LIST payload was provided via named pipes
+116,No STATUS_VERBOSITY payload was provided via named pipes
+117,Invalid STATUS_VERBOSITY payload provided via named pipes
+118,Failed to write MDC tune command
+119,Failed to set 16-bit Lock Key command
+120,Failed to set 32-bit Fuse Key command
+121,Failed to write unspecified data to MDC space
+122,Failed to write unspecified data to unspecified location
+123,Cannot parse DimToOffVoltageDwellTime_mSec from specified profile
+124,Cannot parse DimToOffVoltageHysteresis_mV from specified profile
+125,Cannot parse OutputCurrentUpperLimit_mA from specified profile
+126,Cannot parse InitialFadeStep_mA from specified profile
+127,Cannot parse InitialFadeInterval_mSec from specified profile
+128,Cannot parse DelayedDimLevel_Perc from specified profile
+129,Cannot parse DimDelay_Sec from specified profile
+130,Cannot parse StartingFadeInterval_mSec from specified profile
+131,Cannot parse DimOnFadeInterval_mSec from specified profile
+132,Cannot parse StartingFadeStep_mA from specified profile
+133,Cannot parse DimOnFadeStep_mA from specified profile
+134,Cannot parse OutputCurrentLowerLimit_mA from specified profile
+135,Dim to Off Voltage dwell time less than 100mSec
+136,Dim to Off Voltage hysteresis less than 200mV
+137,Output Current Upper Limit less than Output Current in profile
+138,InitialFadeStep_mA cannot be set to zero in profile
+139,InitialFadeInterval cannot be set to zero in profile
+140,StartingFadeInterval_mSec cannot be set to zero in profile
+141,DimOnFadeInterval_mSec cannot be set to zero in profile
+142,StartingFadeStep_mA cannot be set to zero in profile
+143,DimOnFadeStep_mA cannot be set to zero in profile
+144,OutputCurrentLowerLimit_mA more than OutputCurrentUpperLimit_mA in profile
+145,Provided Max Design Current for specified catalog number is zero
+146,OutputCurrentLowerLimit_mA provided without OutputCurrentUpperLimit_mA provision in profile
+147,OutputCurrentUpperLimit_mA provided without OutputCurrent_mA provision in profile
+148,Message from Named Pipes Client Was Not Properly Terminated
+149,Provided DimToOnFadeStep_mA Exceeds Max Value
+150,Provided InitialFadeStep_mA Exceeds Max Value
+151,Cannot parse dwell time for 0mV calibration
+152,Cannot parse dwell delay time for calibration
+153,Cannot parse dwell time for 9000mV calibration
+154,Combined calibration process dwell times are zero
+155,Failed to Write Analog Control Voltage Calibration Initialization Command
+156,Unrecognized calibration command provided
+157,Unrecognized calibration type provided
+158,A config CMD cannot be issued if a cal CMD is issued
+159,Read driver does not support driver telemetry readout
+160,Wired configuration has commenced
+161,Mismatch detected between drivers discovered and drivers on configuration list
+162,Cannot parse soft fade enabled from profile
+163,Cannot parse soft dim to off enabled from profile

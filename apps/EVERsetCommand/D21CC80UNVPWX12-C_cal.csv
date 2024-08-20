@@ -1,0 +1,2 @@
+CatalogNumber,Type,QtyDrivers,CalibrationCommand,CalibrationType,DwellAt0mV_mSec,DwellDelay_mSec,DwellAt9000mV_mSec
+D21CC80UNVPWX12-C,RFID,1,Calibrate,AnalogCtrlVoltage,2000,2000,2000
